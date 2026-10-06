@@ -2,8 +2,8 @@ import { useCallback, useEffect, useState } from "react";
 import axios from "axios";
 import "./Portfolio.css"; // Connects the layout styling file cleanly
 
-const API_URL = "https://portfolio-q83w.onrender.com";
-const API_BASE = "http://localhost:5000/api";
+const API_URL = "https://portfolio-q83w.onrender.com/api/projects";
+const API_BASE = "https://portfolio-q83w.onrender.com/api"; // Base URL for the backend API
 const DEFAULT_CV_URL = "/cv.pdf";
 
 const normalizeCvUrl = (url) => {
